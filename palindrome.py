@@ -7,10 +7,10 @@ def palindrome(word):
     Returns:
     boolean
     """
-    print(word.lower() == word[::-1].lower())
+    return word.lower() == word[::-1].lower()
   
 
 
 my_word = input("Type in a word to check: ")
 
-palindrome(my_word)
+print(palindrome(my_word))
